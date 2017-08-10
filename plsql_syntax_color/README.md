@@ -1,4 +1,4 @@
-#Colour scheme for Oracle SQL Developer #
+# Colour scheme for Oracle SQL Developer #
 
 This is colour scheme for Oracle SQL Developer.
 

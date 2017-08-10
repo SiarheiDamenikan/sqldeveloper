@@ -10,7 +10,7 @@ Unfortunately Oracle doesn't make it easy to import a new colour scheme into SQL
 
 - Close SQL Developer. This is important. If you modify the scheme file while SQL Developer is open, your changes won't be saved.
 
-- Locate file `dtcache.xml` in the SQL Developer's settings directory. On my system it is located in directory `C:\Users\sergey\AppData\Roaming\SQL Developer\system4.0.3.16.84\o.ide.12.1.3.2.41.140908.1359`
+- Locate file `dtcache.xml` in the SQL Developer's settings directory. On my system it is located in directory `c:\Users\Siarhei_Damenikan\AppData\Roaming\SQL Developer\system17.2.0.188.1159\o.ide.13.0.0.1.42.170225.201\`
 
 - Locate `<schemeMap>` tag inside dtcache.xml file. Insert the content of [`color_scheme.xml`](https://github.com/SiarheiDamenikan/sqldeveloper/blob/master/plsql_syntax_color/color_scheme.xml) file inside `<schemeMap>` alongside the other colour schemes. Be careful not to break the XML.
 
@@ -18,6 +18,6 @@ Unfortunately Oracle doesn't make it easy to import a new colour scheme into SQL
 
 - Launch SQL Developer. Navigate to menu Tools->Preferences, then select item Code Editor -> PL/SQL Syntax Colours in the left pane.
 
-- Select "OzBsidian" in the "Scheme" drop down list on the top.
+- Select "Damenikan" in the drop down list "Scheme" on the top of panel PL/SQL Syntax Color.
 
 ![](screenshots/sqldev_2.png)

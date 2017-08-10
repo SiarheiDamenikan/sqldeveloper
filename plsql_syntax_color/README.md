@@ -1,6 +1,6 @@
 # Colour scheme for Oracle SQL Developer #
 
-This is colour scheme for Oracle SQL Developer.
+This is my colour scheme for Oracle SQL Developer. Tested on Oracle SQL Developer v4.15, v4.20, v17.2
 
 ![](screenshots/sqldev_1.png)
 
